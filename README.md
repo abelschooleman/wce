@@ -16,7 +16,7 @@ It also fetches an interactive map from the Google Maps API and a collection of 
 `make init`
 
 ### Configuration
-Set provided variables in `./wce-backend/.env`
+Set your own API variables in `./wce-backend/.env` or use the set that has been given to you
 
 ### Start frontend server
 Run `make dev`
