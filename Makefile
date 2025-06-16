@@ -1,5 +1,6 @@
 init:
 	docker-compose exec -it app composer install
+	cp ./wce-backend/.env.example ./wce-backend/.env
 	npm --prefix ./wce-frontend install
 
 build:
