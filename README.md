@@ -8,13 +8,15 @@ It also fetches an interactive map from the Google Maps API and a collection of 
 ### Installation
 1. Clone repository including submodules
 `git clone --recurse-submodules <this-repository>`
-2. Start docker containers
+2. Change into application directory
+`cd wce`
+3. Start docker containers
 `docker-compose up -d`
-3. Install dependencies
+4. Install dependencies
 `make init`
 
 ### Configuration
-Copy `.env.example` to `.env` and add provided variables
+Set provided variables in `./wce-backend/.env`
 
 ### Start frontend server
 Run `make dev`
