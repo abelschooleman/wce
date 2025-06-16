@@ -1,0 +1,2 @@
+include:
+  - wce-backend/docker-compose.yml
