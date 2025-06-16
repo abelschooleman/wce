@@ -1,0 +1,6 @@
+[submodule "wce-backend"]
+	path = wce-backend
+	url = git@github.com:abelschooleman/wce-backend.git
+[submodule "wce-frontend"]
+	path = wce-frontend
+	url = git@github.com:abelschooleman/wce-frontend.git
